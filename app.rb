@@ -8,6 +8,6 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    
+    @name = self.name 
   end
 end
